@@ -1,0 +1,24 @@
+{
+  "name": "jetrockets-interns-dnaconverter",
+  "version": "1.0.0",
+  "description": "DNA to RNA converter",
+  "main": "converter.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Komyshev/dnaToRnaConverter.git"
+  },
+  "keywords": [
+    "dna",
+    "rna",
+    "converter"
+  ],
+  "author": "Komyshev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Komyshev/dnaToRnaConverter/issues"
+  },
+  "homepage": "https://github.com/Komyshev/dnaToRnaConverter#readme"
+}
