@@ -1,4 +1,4 @@
-function dnaToRna(s) {
+﻿function dnaToRna(s) {
   let resoultRNA = '';
   if (s == null) return null;
   if (s == '') return '';
@@ -21,14 +21,4 @@ function dnaToRna(s) {
     }
   }
   return resoultRNA;
-}
-
-const inputArea = document.querySelector('.input');
-const convertButton = document.querySelector('.convert');
-const outputArea = document.querySelector('.output');
-convertButton.onclick = function() {
-    let q = dnaToRna(inputArea.value);
-    if (q == null) alert('Некорректный ввод')
-        else outputArea.value = q;
-    
 }
