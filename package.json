@@ -2,7 +2,7 @@
   "name": "jetrockets-interns-dnaconverter",
   "version": "1.0.0",
   "description": "DNA to RNA converter",
-  "main": "converter.mjs",
+  "main": "converter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -1,4 +1,4 @@
-﻿export function dnaToRna(s) {
+﻿let converter = function dnaToRna(s) {
   let result = '';
   if (s == null) return null;
   if (s == '') return '';
@@ -22,3 +22,5 @@
   }
   return result;
 }
+
+module.exports = converter;
