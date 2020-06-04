@@ -1,0 +1,57 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: 0;
+    height: 100%;
+    background: #ffff96;
+}
+
+p {
+    margin: 5%;
+    font-family: "Georgia";
+    font-size: 35px;
+    color: 6a6a6a;
+    text-align: center;
+    color: #1b7f2f;
+}
+
+.area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.convert {
+    height: 40px;
+    width: 200px;
+}
+
+.input {
+    height: 40px;
+    width: 200px;
+}
+
+.output {
+    height: 40px;
+    width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+    .area {
+        flex-direction: column;
+    }
+    
+    p {
+        font-family: "Georgia";
+        font-size: 25px;
+        color: 6a6a6a;
+        text-align: center;
+    }
+}
