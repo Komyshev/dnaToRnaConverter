@@ -17,7 +17,7 @@
         resoultRNA += 'U';
         break;
       default:
-        return null;
+        throw 'ValidationError';
     }
   }
   return resoultRNA;
