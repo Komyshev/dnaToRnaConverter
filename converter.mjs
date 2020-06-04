@@ -1,4 +1,4 @@
-﻿function dnaToRna(s) {
+﻿export function dnaToRna(s) {
   let resoultRNA = '';
   if (s == null) return null;
   if (s == '') return '';
