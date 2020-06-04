@@ -2,7 +2,7 @@
   let resoultRNA = '';
   if (s == null) return null;
   if (s == '') return '';
-  for (let c of s) {
+  for (let c of s.toUpperCase()) {
     switch(c) {
       case 'G':
         resoultRNA += 'C';
